@@ -17,15 +17,9 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>uk.co.blackpepper</groupId>
-		<artifactId>bp-parent</artifactId>
-		<version>1.5.0</version>
-	</parent>
-	
 	<groupId>me.hdpe.bowman</groupId>
 	<artifactId>bowman-parent</artifactId>
-	<version>0.9.1-SNAPSHOT</version>
+	<version>0.9.1-SB3</version>
 	<packaging>pom</packaging>
 
 	<description>
@@ -65,7 +59,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<spring-boot.version>2.6.2</spring-boot.version>
+		<spring-boot.version>3.1.1</spring-boot.version>
 	</properties>
 
 	<modules>
@@ -130,6 +124,7 @@
 						<skip>true</skip>
 					</configuration>
 				</plugin>
+
 				<plugin>
 					<groupId>org.sonatype.plugins</groupId>
 					<artifactId>nexus-staging-maven-plugin</artifactId>
